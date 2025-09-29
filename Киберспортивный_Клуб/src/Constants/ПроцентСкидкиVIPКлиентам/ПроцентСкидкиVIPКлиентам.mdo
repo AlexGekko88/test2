@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b245f001-1376-4ee5-981a-c30f4023b334">
+  <producedTypes>
+    <managerType typeId="3f8ec7bc-f1f3-4bcb-96aa-2f55e2f93a5c" valueTypeId="ff34be6c-41b5-4734-9af8-1cc5f1fc7531"/>
+    <valueManagerType typeId="d76c05b1-1275-4530-afd3-42362d5b96c2" valueTypeId="71789ec3-f6bb-4765-9f82-c161579ff8ce"/>
+    <valueKeyType typeId="3a000ba5-2dd3-4c20-879e-1556fe659680" valueTypeId="2aa9feaf-2e5f-4df5-b614-baf0db1261cb"/>
+  </producedTypes>
+  <name>ПроцентСкидкиVIPКлиентам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процент скидки VIP клиентам</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8018b635-34bf-47c7-859a-4c2447d1402a">
+  <producedTypes>
+    <selectionType typeId="3852f43b-c727-4d99-bf5e-c1e4e72157ce" valueTypeId="9a3394ee-8ae2-4d58-ad07-8f6c13c9b31c"/>
+    <listType typeId="af531eba-0978-4f2d-bb5c-0143ecf7f4a2" valueTypeId="dd9d8a2e-174a-4b11-87bc-cded6a2214db"/>
+    <managerType typeId="0837bb5f-d348-46a6-a9fe-edad85d4f3c4" valueTypeId="34c7e399-fb2d-4b6d-b000-4767836eed08"/>
+    <recordSetType typeId="faa4328f-8583-460c-b862-1c85220e1591" valueTypeId="464e30cb-20a9-43e9-b4b5-0ba478e0a030"/>
+    <recordKeyType typeId="1f0272f7-659f-4db3-a328-1a3f01837692" valueTypeId="ae3b8f75-3a78-47b2-b699-65b66e92b717"/>
+    <recordType typeId="a4b204db-6fe3-448d-80f6-48a6607c6dae" valueTypeId="35c7c6d7-f16c-43be-aa01-76e95b27d556"/>
+  </producedTypes>
+  <name>Выручка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выручка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="0ce872c3-5f4e-4d52-a108-c9b5a52c3417">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="57f62d60-1ba2-47d1-9950-c67a0cfb56aa">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

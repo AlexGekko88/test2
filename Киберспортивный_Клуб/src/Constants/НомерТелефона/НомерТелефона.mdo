@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f355365-9f2d-4896-a6a8-27d31976315e">
+  <producedTypes>
+    <managerType typeId="9df54fab-1135-43db-9eca-c7c26be91626" valueTypeId="d6995b61-1611-4252-a067-dddb26ee64f4"/>
+    <valueManagerType typeId="1beb1b00-c0c1-49ea-b432-1fc383ffe36d" valueTypeId="7f74d359-a6b9-43fa-8e57-cc4a17e0475f"/>
+    <valueKeyType typeId="691b072a-2a2e-4d5c-90f1-64564efb5c24" valueTypeId="52cff354-f279-4622-9888-3981182eff68"/>
+  </producedTypes>
+  <name>НомерТелефона</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номер телефона</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>20</length>
+    </stringQualifiers>
+  </type>
+  <mask>+9(999) 999-99-99</mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

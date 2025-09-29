@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c4132e1-37ab-4248-83ef-832dc83ea601">
+  <name>КиберспортивныйКлуб</name>
+  <synonym>
+    <key>ru</key>
+    <value>Киберспортивный клуб</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="8d3a5230-57a1-4fb7-9cc9-04e426a7a28c"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="6f343640-f313-4d42-b50a-8f1362b412e9"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="206b72c5-7adc-4770-8a3b-1fba8f25b008"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="06bb4b0b-1239-4d9a-bd91-7eb208c1dd1f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0c901206-de5d-44ad-89f8-93e578dfaee3"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="42c13290-cf15-4bfd-95e9-e9e8ee21cfa2"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="04fa95a2-de9a-407b-85c7-5d0832dc1064"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
+  <mainSectionPicture/>
+  <defaultStyle>Style.Основной</defaultStyle>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
+  <languages uuid="37537615-5605-4741-8559-251e6db32658">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Клуб</subsystems>
+  <subsystems>Subsystem.Бар</subsystems>
+  <styles>Style.Основной</styles>
+  <commonPictures>CommonPicture.Клуб</commonPictures>
+  <commonPictures>CommonPicture.Бар</commonPictures>
+  <commonPictures>CommonPicture.Аналитика</commonPictures>
+  <commonModules>CommonModule.Служебный</commonModules>
+  <constants>Constant.НаименованиеКлуба</constants>
+  <constants>Constant.Адрес</constants>
+  <constants>Constant.ПроцентСкидкиVIPКлиентам</constants>
+  <constants>Constant.НомерТелефона</constants>
+  <commonForms>CommonForm.Настройки</commonForms>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.ТоварыИУслуги</catalogs>
+  <catalogs>Catalog.Залы</catalogs>
+  <catalogs>Catalog.Компьютеры</catalogs>
+  <catalogs>Catalog.Игры</catalogs>
+  <documents>Document.ПокупкаТоваров</documents>
+  <documents>Document.ПродажаТоваров</documents>
+  <documents>Document.БроньПК</documents>
+  <informationRegisters>InformationRegister.Цены</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Выручка</accumulationRegisters>
+</mdclass:Configuration>

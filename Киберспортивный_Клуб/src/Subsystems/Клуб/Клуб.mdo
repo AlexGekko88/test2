@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9bac74f0-1977-4dd7-95ce-6400e50171ea">
+  <name>Клуб</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клуб</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Клуб</picture>
+  </picture>
+  <content>Constant.НаименованиеКлуба</content>
+  <content>Constant.Адрес</content>
+  <content>Constant.ПроцентСкидкиVIPКлиентам</content>
+  <content>Constant.НомерТелефона</content>
+  <content>Catalog.Клиенты</content>
+  <content>Catalog.Залы</content>
+  <content>Catalog.Компьютеры</content>
+  <content>Catalog.Игры</content>
+  <content>CommonModule.Служебный</content>
+  <content>CommonForm.Настройки</content>
+  <content>CommonPicture.Клуб</content>
+  <content>CommonPicture.Аналитика</content>
+  <content>Document.БроньПК</content>
+  <content>AccumulationRegister.Выручка</content>
+  <content>InformationRegister.Цены</content>
+</mdclass:Subsystem>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ec9051b-a7c0-4c83-bdd8-438b424a1e9d">
+  <producedTypes>
+    <objectType typeId="758d4451-f839-40fd-a24d-f543fddc51f4" valueTypeId="9bb68801-6ce9-4df3-8877-334572a91ba5"/>
+    <refType typeId="7dc6b280-c7ca-42cf-8af3-758fad2b3bdf" valueTypeId="a293c3c6-5be8-42c3-a575-a17740b3767a"/>
+    <selectionType typeId="c18c7a26-5bf6-4b0e-9c26-6b65054398f0" valueTypeId="63d32286-fd84-4e4b-9a2a-1db453d80d39"/>
+    <listType typeId="4f3748dc-b2b7-4320-8a3f-1efd94afb94b" valueTypeId="12f951c2-b04b-4617-a3fd-060adc4e3f9d"/>
+    <managerType typeId="fd3244fe-d8e5-40cc-9af9-c21fa052dd7a" valueTypeId="024b8873-f86a-4906-a7fe-bad87278e4cb"/>
+  </producedTypes>
+  <name>Игры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Игры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Игры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Игры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Игра</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Игры</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>120</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

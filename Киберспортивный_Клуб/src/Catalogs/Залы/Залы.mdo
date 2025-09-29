@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f80e6e3-8991-4642-9dfc-3886fefcbec8">
+  <producedTypes>
+    <objectType typeId="4c397d1f-ac34-416f-9981-03ef91428bf4" valueTypeId="85c2c906-54d5-422d-901e-a65b161ca52c"/>
+    <refType typeId="05b76eac-37fa-4fac-af11-58930d8b9b20" valueTypeId="30346007-fe2c-41ec-bcb6-ba444a3a17a9"/>
+    <selectionType typeId="2420f3e1-1192-4af5-ba65-d0e5f3e99fcf" valueTypeId="07f50236-59ed-428b-ac87-01794681830b"/>
+    <listType typeId="a9c264df-cb82-4ea7-8f3e-4b3ac66f5f5a" valueTypeId="f1753d89-40de-463f-a3f2-ed41ae896b77"/>
+    <managerType typeId="6e45f7d7-78cb-40ba-9223-251b95382117" valueTypeId="c414d974-be1e-4481-a82e-de6b01e33af1"/>
+  </producedTypes>
+  <name>Залы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Залы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Залы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Залы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Зал</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Залы</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="7f313f9b-5e92-4755-9b4d-3445f4496f3c">
+      <name>VIPЗал</name>
+      <description>VIPЗал</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="860018cf-594f-4e80-9b62-c2e33eefb637">
+      <name>ОбщийЗал</name>
+      <description>Общий зал</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
