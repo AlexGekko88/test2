@@ -58,6 +58,7 @@
   <catalogs>Catalog.Залы</catalogs>
   <catalogs>Catalog.Компьютеры</catalogs>
   <catalogs>Catalog.Игры</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
   <documents>Document.ПокупкаТоваров</documents>
   <documents>Document.ПродажаТоваров</documents>
   <documents>Document.БроньПК</documents>
